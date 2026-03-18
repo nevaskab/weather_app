@@ -1,0 +1,28 @@
+.switch{
+    display: flex;
+    width: 64px;
+    height: 24px;
+    align-items: center;
+    background-color: var(--toggle-bg-color);
+    border-radius: 16px;
+    margin: auto 0 25px;
+}
+
+.switch button{
+    display: inline-block;
+    width: 32px;
+    height: 32px;
+    background-color: var(--highlight-color);
+    border-radius: 9999px;
+    border: none;
+    transition: margin-left 0.4s ease-in-out;
+}
+
+.switch img{
+    width: 100%;
+    padding: 4px;
+}
+
+.switch.dark button{
+    margin-left: 32px;
+}

@@ -1,0 +1,11 @@
+.icon-button{
+    background-color: unset;
+    border: none;
+    display: block;
+    color: var(--toggle-bg-color);
+    transition: color 0.2s ease-in-out;
+}
+
+.icon-button:hover{
+    color: var(--accent-color);
+}

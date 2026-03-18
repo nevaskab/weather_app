@@ -1,0 +1,39 @@
+.navbar{
+    box-sizing: border-box;
+    width: 80px;
+    background-color: var(--secundary-bg-color);
+    height: 100vh;
+    max-height: 100%;
+    padding: 1rem 0;
+    transition: background-color 0.5s;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: var(--shadow);
+}
+
+.main-logo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.main-logo img{
+    width: 40px;
+    margin: 10px;
+}
+
+.main-logo h1{
+    font-size: 12px;
+    padding: 4px;
+    text-align: center;
+}
+
+.icon-button-list{
+    display: flex;
+    flex-direction: column;
+    gap: 54px;
+    margin: 50px;
+}
